@@ -1,0 +1,30 @@
+.tópicos {
+    background: var(--azul-degrade);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.tópicos__titulo {
+    color: var(--branco);
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.tópicos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tópicos__item {
+    margin: 2rem 0.5rem;
+}
+
+.tópicos__link {
+    color: var(--branco);
+    padding: 1rem;
+    background-color: var(--laranja);
+    text-decoration: none;
+    font-size: 0.88rem;
+    font-weight: 700;
+}
